@@ -116,7 +116,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 176508,
+      "_AVPHYS_PAGES": 167080,
       "_NPROCESSORS_CONF": 1,
       "_NPROCESSORS_ONLN": 1,
       "_PHYS_PAGES": 512313,
@@ -390,7 +390,7 @@
         "chef_root": "/opt/chefdk/embedded/lib/ruby/gems/2.4.0/gems/chef-13.8.5/lib"
       }
     },
-    "ohai_time": 1522269244.2658587,
+    "ohai_time": 1522295746.092216,
     "keys": {
       "ssh": {
         "host_rsa_public": "AAAAB3NzaC1yc2EAAAADAQABAAABAQDixpa9tKuTuoi6ZSwh4oFBEuyqXlZqEGmC1BajyFq3wKGa8HJ2gxYeBlre1TDYEPw+Q8hITOHgHln6LCYlwpic7Pz+splcaPr9t1WcWzszaSR0smcKoQOPNH1uZ06fboxiZRgazxNV3BWYddN7piEcnrmXWrqZEGoqWGw6M19iG5Na2jeVwUfDxQvotDCGWCndDaqNHaQOakk52L1KgaQpaPzxQSo/GbsYv5P+0zf5hkCsBNGNVfkZYI7nF/lp2Odo9MQ3XwzapjjYh4wLtUCn0kZXZ3BNP2gUBdn0SsT/GjMpuIz3slJEUdsmKUtAPmSNBP7RnZ2LO7fRd3gc4hr/",
@@ -463,7 +463,7 @@
       "modules": {
         "ipv6": {
           "size": "405616",
-          "refcount": "54"
+          "refcount": "64"
         },
         "crc_ccitt": {
           "size": "2019",
@@ -708,16 +708,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "1110548",
-              "packets": "11915",
+              "bytes": "2822203",
+              "packets": "26214",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "188875038",
-              "packets": "134848",
+              "bytes": "193137132",
+              "packets": "152382",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -1248,12 +1248,12 @@
         },
         "/dev/xvda1": {
           "kb_size": "30830568",
-          "kb_used": "1822940",
-          "kb_available": "28907380",
+          "kb_used": "1826916",
+          "kb_available": "28903404",
           "percent_used": "6%",
           "total_inodes": "1966080",
-          "inodes_used": "77374",
-          "inodes_available": "1888706",
+          "inodes_used": "77521",
+          "inodes_available": "1888559",
           "inodes_percent_used": "4%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1358,12 +1358,12 @@
         },
         "/": {
           "kb_size": "30830568",
-          "kb_used": "1822940",
-          "kb_available": "28907380",
+          "kb_used": "1826916",
+          "kb_available": "28903404",
           "percent_used": "6%",
           "total_inodes": "1966080",
-          "inodes_used": "77374",
-          "inodes_available": "1888706",
+          "inodes_used": "77521",
+          "inodes_available": "1888559",
           "inodes_percent_used": "4%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1462,13 +1462,13 @@
         "/dev/xvda1,/": {
           "device": "/dev/xvda1",
           "kb_size": "30830568",
-          "kb_used": "1822940",
-          "kb_available": "28907380",
+          "kb_used": "1826916",
+          "kb_available": "28903404",
           "percent_used": "6%",
           "mount": "/",
           "total_inodes": "1966080",
-          "inodes_used": "77374",
-          "inodes_available": "1888706",
+          "inodes_used": "77521",
+          "inodes_available": "1888559",
           "inodes_percent_used": "4%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1566,12 +1566,12 @@
         },
         "/dev/xvda1": {
           "kb_size": "30830568",
-          "kb_used": "1822940",
-          "kb_available": "28907380",
+          "kb_used": "1826916",
+          "kb_available": "28903404",
           "percent_used": "6%",
           "total_inodes": "1966080",
-          "inodes_used": "77374",
-          "inodes_available": "1888706",
+          "inodes_used": "77521",
+          "inodes_available": "1888559",
           "inodes_percent_used": "4%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1676,12 +1676,12 @@
         },
         "/": {
           "kb_size": "30830568",
-          "kb_used": "1822940",
-          "kb_available": "28907380",
+          "kb_used": "1826916",
+          "kb_available": "28903404",
           "percent_used": "6%",
           "total_inodes": "1966080",
-          "inodes_used": "77374",
-          "inodes_available": "1888706",
+          "inodes_used": "77521",
+          "inodes_available": "1888559",
           "inodes_percent_used": "4%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1780,13 +1780,13 @@
         "/dev/xvda1,/": {
           "device": "/dev/xvda1",
           "kb_size": "30830568",
-          "kb_used": "1822940",
-          "kb_available": "28907380",
+          "kb_used": "1826916",
+          "kb_available": "28903404",
           "percent_used": "6%",
           "mount": "/",
           "total_inodes": "1966080",
-          "inodes_used": "77374",
-          "inodes_available": "1888706",
+          "inodes_used": "77521",
+          "inodes_available": "1888559",
           "inodes_percent_used": "4%",
           "fs_type": "ext4",
           "mount_options": [
@@ -1870,24 +1870,24 @@
         "surplus": "0"
       },
       "total": "2049252kB",
-      "free": "702232kB",
-      "available": "1733840kB",
-      "buffers": "57656kB",
-      "cached": "1044420kB",
-      "active": "358336kB",
-      "inactive": "842592kB",
-      "dirty": "76kB",
+      "free": "665608kB",
+      "available": "1716004kB",
+      "buffers": "66080kB",
+      "cached": "1054100kB",
+      "active": "385596kB",
+      "inactive": "843300kB",
+      "dirty": "32kB",
       "writeback": "0kB",
-      "anon_pages": "98852kB",
-      "mapped": "29796kB",
-      "slab": "129184kB",
-      "slab_reclaimable": "117648kB",
-      "slab_unreclaim": "11536kB",
-      "page_tables": "3620kB",
+      "anon_pages": "108720kB",
+      "mapped": "32132kB",
+      "slab": "131432kB",
+      "slab_reclaimable": "118424kB",
+      "slab_unreclaim": "13008kB",
+      "page_tables": "8756kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "1024624kB",
-      "committed_as": "289412kB",
+      "committed_as": "322308kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "0kB",
       "vmalloc_chunk": "0kB",
@@ -1974,10 +1974,10 @@
       "real": 1,
       "cores": 1
     },
-    "uptime_seconds": 11791,
-    "uptime": "3 hours 16 minutes 31 seconds",
-    "idletime_seconds": 11702,
-    "idletime": "3 hours 15 minutes 02 seconds",
+    "uptime_seconds": 38293,
+    "uptime": "10 hours 38 minutes 13 seconds",
+    "idletime_seconds": 38140,
+    "idletime": "10 hours 35 minutes 40 seconds",
     "pci": {
       "00:00.0": {
         "class_name": "Host bridge",
@@ -4195,6 +4195,13 @@
         "installdate": "1522268494",
         "arch": "x86_64"
       },
+      "nss_compat_ossl": {
+        "epoch": "0",
+        "version": "0.9.6",
+        "release": "8.6.amzn1",
+        "installdate": "1522273199",
+        "arch": "x86_64"
+      },
       "python27-six": {
         "epoch": "0",
         "version": "1.8.0",
@@ -4725,6 +4732,13 @@
         "version": "2.6",
         "release": "2.5.amzn1",
         "installdate": "1520405213",
+        "arch": "x86_64"
+      },
+      "elinks": {
+        "epoch": "0",
+        "version": "0.12",
+        "release": "0.36.pre6.14.amzn1",
+        "installdate": "1522273200",
         "arch": "x86_64"
       },
       "sgpio": {
