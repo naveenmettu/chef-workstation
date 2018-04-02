@@ -4,13 +4,19 @@
 #
 # Copyright:: 2018, The Authors, All Rights Reserved.
 
-package 'apache2' do
-	package_name 'httpd'
+if node[platform_family] == 'amazon'
+	package = 'httpd'
+elsif node[platform_family] == 'debian'
+	package = 'apache2'
+end
+
+package 'apache' do
+	package_name package
 	action :install
 end
 
-service 'apache2' do
-	service_name 'httpd'
+service 'apache' do
+	service_name package
 	action [:start, :enable]
 end
 
